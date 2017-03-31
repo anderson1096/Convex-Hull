@@ -48,7 +48,7 @@ Mat convex_hull(Mat &thresh){
 
 }
 
-
+//Funcion que realiza el threshold
 Mat threshold(Mat gray){
   cv::Mat draw;
   Mat back = imread("/home/anderson/Documentos/ConvexHull/fondo.jpg");
